@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snehaazzzz Calculator</title>
+    <style>
+        /* CSS styles from style.css */
+        body {
+            background-color: rgb(214, 214, 214);
+        }
+
+        .container {
+            width: 250px;
+            height: 400px;
+            margin: 80px auto;
+            border-radius: 10px;
+            background-color: rgb(214, 214, 214);
+            box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+        }
+
+        .cal-box {
+            width: 200px;
+            margin: 20px auto;
+        }
+
+        #display {
+            border: none;
+            outline: none;
+            color: black;
+            text-align: right;
+            font-weight: 600;
+            padding: 15px;
+            margin: 30px 0 20px 0;
+            background: transparent;
+            box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+        }
+
+        .button {
+            margin: 15px 0 0 5px;
+            width: 42px;
+            height: 42px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+            background-color: rgb(214, 214, 214);
+            box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+            display: inline-block;
+        }
+
+        .button:active {
+            box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+        }
+
+        .clearButton {
+            color: white;
+            background-color: red;
+        }
+
+        .mathbutton {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your HTML content here -->
+    <div class="container">
+        <!-- ... rest of your HTML content ... -->
+        <!-- Filename: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Snehaazzzz Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="cal-box">
+			<form name="calculator">
+				<input type="text" id="display" placeholder="0" readonly>
+				<br>
+				<input class="button"
+						type="button"
+						value="7"
+						onclick="calculator.display.value +='7'">
+				<input class="button"
+					type="button"
+					value="8"
+					onclick="calculator.display.value +='8'">
+				<input class="button"
+					type="button"
+					value="9"
+					onclick="calculator.display.value +='9'">
+				<input class="button mathbutton"
+					type="button"
+					value="+" onclick="calculator.display.value +='+'">
+				<br>
+				<input class="button"
+					type="button"
+					value="4"
+					onclick="calculator.display.value +='4'">
+				<input class="button"
+					type="button"
+					value="5"
+					onclick="calculator.display.value +='5'">
+				<input class="button"
+					type="button"
+					value="6"
+					onclick="calculator.display.value +='6'">
+				<input class="button mathbutton"
+					type="button"
+					value="-"
+					onclick="calculator.display.value +='-'">
+				<br>
+				<input class="button"
+					type="button"
+					value="1"
+					onclick="calculator.display.value +='1'">
+				<input class="button"
+					type="button"
+					value="2"
+					onclick="calculator.display.value +='2'">
+				<input class="button"
+					type="button"
+					value="3"
+					onclick="calculator.display.value +='3'">
+				<input class="button mathbutton"
+					type="button"
+					value="x" onclick="calculator.display.value +='*'">
+				<br>
+				<input class="button clearButton"
+					type="button"
+					value="C"
+					onclick="calculator.display.value =''">
+				<input class="button"
+					type="button"
+					value="0"
+					onclick="calculator.display.value +='0'">
+				<input class="button mathbutton"
+					type="button"
+					value="="
+					onclick="calculator.display.value =eval(calculator.display.value)">
+
+				<!-- eval() evaluates arithmetic expressions in display box -->
+				<input class="button mathbutton"
+					type="button" value="/"
+					onclick="calculator.display.value +='/'">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+
+    </div>
+</body>
+</html>
